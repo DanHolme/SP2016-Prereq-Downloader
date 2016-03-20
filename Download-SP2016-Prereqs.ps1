@@ -129,10 +129,10 @@ function DownloadFiles()
         
         Try 
         { 
-            ## Check if destination file already exists 
+            # Check if file already exists 
             If (!(Test-Path "$Filespec")) 
             { 
-                ## Begin download 
+                # Begin download 
                 Start-BitsTransfer -Source $DownloadURL -Destination "$Filespec" -DisplayName "Downloading `'$FileName`' to $FilePath" -Priority High -Description "From $DownloadURL..." -ErrorVariable err 
                 If ($err) {Throw ""} 
                 Write-Host "     STATUS: Downloaded"
