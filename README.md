@@ -30,5 +30,6 @@ It stores prerequisites in two folders:
   
 To modify this script for your environment:
 
+- Create the folders to which updates and prerequisites will be saved
 - Modify the values in the CONFIGURATION BLOCK section
 - Run the script in a PowerShell console (or ISE) launched with the RUN AS ADMINISTRATOR option
