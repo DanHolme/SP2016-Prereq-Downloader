@@ -27,6 +27,9 @@
 # -------------------
 # CONFIGURATION BLOCK
 
+# Configure the folders to which updates and prerequisites are saved.
+# These folders must already exist - the script does not create them.
+
 # The top-level folder in the installation folder tree
 $RootFolder = "C:\SharePointInstall"
 
