@@ -7,6 +7,8 @@
 # Please provide feedback to Dan Holme
 # dan.holme@intelliem.com
 #
+# Follow this script at https://github.com/DanHolme/SP2016-Prereq-Downloader
+#
 # This script downloads SharePoint 2016 prerequisites that can be
 # later installed by the SharePoint 2016 Prerequisite installer and
 # by addiitonal prerequisite installation scripts.
@@ -15,7 +17,8 @@
 # Should work on Windows Server 2016
 #
 # VERSION HISTORY
-# 1.0      THIS VERSION
+# 1.0      ORIGINAL VERSION
+# 1.1      21 March 2016 - Added definition of $Prereqs3Folder
 #
 # Based on a script by Craig Lussier (http://craiglussier.com) on TechNet
 # http://gallery.technet.microsoft.com/office/DownloadInstall-SharePoint-e6df9eb8
@@ -40,6 +43,9 @@ $Prereqs1Folder = "$RootFolder\SharePoint_Prerequisites\Windows_Server_2012_R2_U
 
 # The folder for prerequisites used by the Prerequisite Installer
 $Prereqs2Folder = "$RootFolder\SharePoint_Prerequisites\PrerequisiteInstaller"
+
+# The folder for updates that are required only in certain scenarios
+$Prereqs3Folder = "$RootFolder\SharePoint_Prerequisites\Additional_Updates"
 
 # END CONFIGURATION BLOCK
 # -----------------------
