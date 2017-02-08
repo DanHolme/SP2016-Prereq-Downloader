@@ -34,7 +34,7 @@ It stores prerequisites in three folders:
   See https://www.microsoft.com/en-us/download/details.aspx?id=42334 and 
   https://support.microsoft.com/en-us/kb/2919355 for details
 
- - A folder for updates that are necessary only in certain scenarios, including Silverlight and Exchange Web Services Managed API. 
+- A folder for updates that are necessary only in certain scenarios, including Silverlight and Exchange Web Services Managed API. 
  
 To modify this script for your environment:
 
